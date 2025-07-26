@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sridevi Akula Resume</title>
+  <script>
+    function toggleSection(id) {
+      var section = document.getElementById(id);
+      if (section.style.display === "none") {
+        section.style.display = "block";
+      } else {
+        section.style.display = "none";
+      }
+    }
+  </script>
+</head>
+<body>
+
+<center>
+  <h1>RESUME</h1>
+
+  <p><strong>Name:</strong> Sridevi Akula</p>
+  <p><strong>Email:</strong> srideviakula13@gmail.com</p>
+  <p><strong>Phone:</strong> 7842534771</p>
+  <p><strong>LinkedIn:</strong> www.linkedin.com/in/sridevi1</p>
+
+  <!-- Buttons to open Education and Technical Skills -->
+  <button onclick="toggleSection('education')">Click to Show/Hide Education</button>
+  <button onclick="toggleSection('skills')">Click to Show/Hide Technical Skills</button>
+</center>
+
+<hr>
+
+<h2><u>Objective</u></h2>
+<p>To obtain an opportunity that allows me to utilize my skills effectively and contribute to the growth of the organization while also enhancing my personal development.</p>
+
+<hr>
+
+<!-- Education Section (hidden by default) -->
+<div id="education" style="display: none;">
+  <h2><u>Education</u></h2>
+  <p>MCA - Swarnadhra College of Engineering and Technology, Sitharamapuram - CGPA: 8.2</p>
+  <p>B.Sc (MPCS) - Viswa Teja Degree College, Penugonda - CGPA: 8.24</p>
+  <p>Intermediate - Viswa Teja Jr College, Penugonda - CGPA: 8.44</p>
+  <p>SSC - ZPHS, Poduru - CGPA: 7.5</p>
+  <hr>
+</div>
+
+<!-- Technical Skills Section (hidden by default) -->
+<div id="skills" style="display: none;">
+  <h2><u>Technical Skills</u></h2>
+  <p>Python (Object-Oriented Programming)</p>
+  <p>Java (Basics)</p>
+  <p>HTML</p>
+  <p>CSS</p>
+  <hr>
+</div>
+
+<h2><u>Certifications</u></h2>
+<p>Python Programming – IIT Bombay</p>
+<p>Java Basics</p>
+
+<!-- You can add more toggle sections like this if needed -->
+
+</body>
+</html>
